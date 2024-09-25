@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media Query</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100" rel="stylesheet" />
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu seite</h1>
+        <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">menu</span>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+            <h2>Testando Media Queries</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quod placeat. Eius possimus nesciunt perspiciatis quisquam voluptatibus iure sed rem, libero recusandae, obcaecati non labore ullam iste ab, dolores ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quisquam modi consequatur nulla? Ex molestiae quis sit voluptatem. Pariatur minus, ipsa voluptate in veritatis incidunt aspernatur quas eius asperiores beatae?</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quod placeat. Eius possimus nesciunt perspiciatis quisquam voluptatibus iure sed rem, libero recusandae, obcaecati non labore ullam iste ab, dolores ex.</p>
+
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi, quod placeat. Eius possimus nesciunt perspiciatis quisquam voluptatibus iure sed rem, libero recusandae, obcaecati non labore ullam iste ab, dolores ex. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quisquam modi consequatur nulla? Ex molestiae quis sit voluptatem. Pariatur minus, ipsa voluptate in veritatis incidunt aspernatur quas eius asperiores beatae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, fugiat aliquid nemo voluptates deleniti consequatur! Perferendis dolorem qui delectus dolores incidunt provident iure ad accusamus inventore? Veritatis omnis vero nesciunt.</p>
+        </article>
+    </main>
+    <script>
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
